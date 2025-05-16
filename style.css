@@ -26,3 +26,18 @@ p {
 .card p:last-child {
 	margin-bottom: 0;
 }
+
+.charity-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.charity-card .p-6 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.charity-card .p-6 .flex.justify-between {
+  margin-top: auto;
+}
